@@ -1,0 +1,44 @@
+---+ !AutoCompletitionLibPlugin
+Providing librarys and functionalitys to use easy javascript autocompletion for the user interface
+
+%TOC%
+
+---++ Introduction
+This plugin provides you librarys to be able to implement easy and nice auto-completitions for the user-interface by using jquery`s autocomplete.
+In addition thickbox and bgiframe is used to show you a nice box.
+
+---++ Usage
+    After you have installed the library, you need to configure in the Configuration-System, if the javascript and .css files should be included automatically, by default this is the case.
+---+++ Documentation
+| Module | Documentation | Source |
+| jq.autocomplete | [[http://docs.jquery.com/Plugins/Autocomplete]] | [[http://bassistance.de/jquery-plugins/jquery-plugin-autocomplete/]] |
+    
+---++ Installation instructions
+   * just use the installer attached to the topic or even easier, use the configure-system/Extension to easy install it through an user-interface
+__Note:__ You do not need to install anything on the browser to use this plugin. The following instructions are for the administrator who installs the Plugin on the server where Foswiki is running.
+
+   * Set SHORTDESCRIPTION = Providing librarys and functionalitys to use easy javascript autocompletion for the user interface
+
+|  Plugin Author: | Foswiki:Main.EugenMayer |
+|  Copyright: | &copy; Impressive.media |
+|  License: | GPL ([[http://www.gnu.org/copyleft/gpl.html][GNU General Public License]]) |
+|  Plugin Version: | 28 Dez 2008 (V0.1) |
+|  Change History: | <!-- versions below in reverse order --> |
+|  28 Dez 2008: | initial release |
+|  Foswiki Dependency: | |
+|  CPAN Dependencies: | |
+|  Other Dependencies: | |
+|  Perl Version: | 5.005 |
+|  Add-on Home: | http://foswiki.org/Extensions/%TOPIC% |
+|  Feedback: | http://foswiki.org/Extensions/%TOPIC%Dev |
+|  Appraisal: | http://foswiki.org/Extensions/%TOPIC%Appraisal |
+ __Related Topic:__
+
+-- Foswiki:Main/EugenMayer - 28 Dez 2008
+
+%META:FORM{name="PackageForm"}%
+%META:FIELD{name="TopicClassification" attributes="" title="TopicClassification" value="PluginPackage"}%
+%META:FIELD{name="Compatibility" attributes="" title="[[Compatibility]]" value=""}%
+%META:FIELD{name="DemoUrl" attributes="" title="DemoUrl" value="http://"}%
+%META:FIELD{name="DevelopedInSVN" attributes="" title="DevelopedInSVN" value="Yes"}%
+%META:FIELD{name="ModificationPolicy" attributes="" title="ModificationPolicy" value="PleaseFeelFreeToModify"}%
