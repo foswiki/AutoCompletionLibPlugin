@@ -1,1 +1,1 @@
-JqueryCompatibiltyModePlugin
+Foswiki::Plugins::JQueryCompatibilityModePlugin,>=0,perl,Required.
