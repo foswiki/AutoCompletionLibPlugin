@@ -24,7 +24,7 @@ __Note:__ You do not need to install anything on the browser to use this plugin.
 |  License: | GPL ([[http://www.gnu.org/copyleft/gpl.html][GNU General Public License]]) |
 |  Plugin Version: | 28 Dez 2008 (V0.2) |
 |  Change History: | <!-- versions below in reverse order --> |
-|  13 Jan 2009: | Now using the JQueryPlugin, not the JQueryCompatibiltyPlugin |
+|  13 Jan 2009: | Now using the JQueryPlugin, no longer using JQueryCompatibiltyPlugin |
 |  28 Dez 2008: | initial release |
 |  Foswiki Dependency: | |
 |  CPAN Dependencies: | |
