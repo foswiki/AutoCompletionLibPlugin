@@ -36,7 +36,7 @@ $VERSION = '$Rev: 12445$';
 # This is a free-form string you can use to "name" your own plugin version.
 # It is *not* used by the build automation tools, but is reported as part
 # of the version number in PLUGINDESCRIPTIONS.
-$RELEASE = '0.2';
+$RELEASE = '0.3';
 
 # Short description of this plugin
 # One line description, is shown in the %FoswikiWEB%.TextFormattingRules topic:
@@ -61,7 +61,7 @@ sub initPlugin {
     $output = "<script type='text/javascript' src='$pluginPubHome/js/lib/thickbox-compressed.js'></script>";
     Foswiki::Func::addToHEAD($pluginName."_thickboxjs",$output,"JQueryCompatibilityModePlugin_jquerylib_init");
     
-    $output = "<script language='javascript' type='text/javascript' src='$pluginPubHome/js/jquery.autocomplete.pack'></script>";
+    $output = "<script language='javascript' type='text/javascript' src='$pluginPubHome/js/jquery.autocomplete.pack.js'></script>";
     Foswiki::Func::addToHEAD($pluginName."_jqueryautocompletejs",$output,"JQueryCompatibilityModePlugin_jquerylib_init");
     
     $output = "<script type='text/javascript' src='$pluginPubHome/js/lib/jquery.bgiframe.min.js'></script>";
