@@ -70,7 +70,7 @@ sub initPlugin {
     $output = "<link rel='stylesheet' type='text/css' href='$pluginPubHome/css/jquery.autocomplete.css' />";
     Foswiki::Func::addToHEAD($pluginName."_autocompletecss",$output,$pluginName."_jqueryautocompletejs");
     
-    $output = "<link rel='stylesheet' type='text/css' href='$pluginPubHome/css/lib/thickbox.css' />";
+    $output = "<link rel='stylesheet' type='text/css' href='$pluginPubHome/css/thickbox.css' />";
     Foswiki::Func::addToHEAD($pluginName."_thickboxcss",$output,$pluginName."_jqueryautocompletejs");
      
     return 1;
