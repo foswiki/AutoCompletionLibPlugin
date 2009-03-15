@@ -23,8 +23,9 @@ After you have installed the library, you need to [[%SCRIPTURL{"configure"}%][co
 |  Plugin Author: | Foswiki:Main.EugenMayer |
 |  Copyright: | &copy; 2009, Collaborganize [[www.collaborganize.com]] |
 |  License: | GPL ([[http://www.gnu.org/copyleft/gpl.html][GNU General Public License]]) |
-|  Plugin Version: | 24 Jan 2009 (V0.5) |
+|  Plugin Version: | 15 Mar 2009 (V0.6) |
 |  Change History: | <!-- versions below in reverse order --> |
+|  15 Mar 2009: | Fixing thickbox.css, which breaks the normal identation Tasks.Item1215 |
 |  24 Jan 2009: | Fixing tickbox.css path |
 |  21 Jan 2009: | Making JQuery variable |
 |  17 Jan 2009: | Back to <nop>JQueryCompatibilityModePlugin |
