@@ -1,0 +1,10 @@
+data/System/AutoCompletionLibPlugin.txt Plugin topic
+lib/Foswiki/Plugins/AutoCompletionLibPlugin.pm Perl module
+lib/Foswiki/Plugins/AutoCompletionLibPlugin/Config.spec
+pub/System/AutoCompletionLibPlugin/js/lib/thickbox-compressed.js
+pub/System/AutoCompletionLibPlugin/js/lib/jquery.ajaxQueue.js
+pub/System/AutoCompletionLibPlugin/js/lib/jquery.bgiframe.min.js
+pub/System/AutoCompletionLibPlugin/js/jquery.autocomplete.pack.js
+pub/System/AutoCompletionLibPlugin/css/thickbox.css
+pub/System/AutoCompletionLibPlugin/css/jquery.autocomplete.css
+pub/System/AutoCompletionLibPlugin/images/ac-loader.gif

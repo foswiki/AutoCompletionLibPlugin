@@ -16,7 +16,7 @@
 # http://www.gnu.org/copyleft/gpl.html
 
 # =========================
-package Foswiki::Plugins::AutoCompletitionLibPlugin;
+package Foswiki::Plugins::AutoCompletionLibPlugin;
 
 # =========================
 use strict;
@@ -44,7 +44,7 @@ $SHORTDESCRIPTION =
 'Providing librarys and functionalitys to use easy javascript autocompletion for the user interface';
 
 # Name of this Plugin, only used in this module
-$pluginName = 'AutoCompletitionLibPlugin';
+$pluginName = 'AutoCompletionLibPlugin';
 
 # =========================
 my $jqPluginName = "JQueryCompatibilityModePlugin";
@@ -52,7 +52,7 @@ my $jqPluginName = "JQueryCompatibilityModePlugin";
 sub initPlugin {
     my ( $topic, $web, $user, $installWeb ) = @_;
     
-    return 1 if(!$Foswiki::cfg{Plugins}{AutoCompletitionLibPlugin}{AutoInclude} );        
+    return 1 if(!$Foswiki::cfg{Plugins}{AutoCompletionLibPlugin}{AutoInclude} );        
         
     my $pluginPubHome = Foswiki::Func::getPubUrlPath()."/System/$pluginName";
     my $output = "<script type='text/javascript' src='$pluginPubHome/js/lib/jquery.ajaxQueue.js'></script>";

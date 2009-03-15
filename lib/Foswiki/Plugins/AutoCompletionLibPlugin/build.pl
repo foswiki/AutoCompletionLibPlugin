@@ -8,6 +8,6 @@ BEGIN {
 
 use Foswiki::Contrib::Build;
 
-$build = new Foswiki::Contrib::Build( "AutoCompletitionLibPlugin" );
+$build = new Foswiki::Contrib::Build( "AutoCompletionLibPlugin" );
 $build->build($build->{target});
 
